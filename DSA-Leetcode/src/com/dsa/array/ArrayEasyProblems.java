@@ -1,6 +1,9 @@
 package com.dsa.array;
 
 import java.util.Arrays;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 public class ArrayEasyProblems {
 
@@ -25,10 +28,50 @@ public class ArrayEasyProblems {
     	}
     	return newarr;
     }
-	
+    
+    // 2798 target hours
+    public int numberOfEmployeesWhoMetTarget(int[] hours, int target) {
+    	int count = 0;
+        for(int i=0; i<hours.length; i++){
+        	if(hours[i] >= target) {
+        		count++;
+        	}
+        }
+        return count;
+    }
+    
+    // 2824 count pairs
+    public static int countPairs(List<Integer> nums, int target) {
+        int count = 0;
+    	for(int i=0; i<nums.size(); i++) {
+        	for(int j=i+1; j<nums.size(); j++) {
+        		if((nums.get(i) + nums.get(j)) < target) {
+        			count++;
+        		}
+        	}
+        }
+    	return count;
+    }
+    
+    // optimized - using hash map
+	public static int countPairsByMap(List<Integer> nums, int target) {
+		Map<Integer, Integer> map = new HashMap<>();
+		int count = 0;
+		for(int num : nums) {
+			int complement = target - num;
+			if(map.containsKey(complement)) {
+				System.out.println(complement);
+				count += map.get(complement);
+			}
+			map.put(num, map.getOrDefault(num, 0) + 1);
+		}
+		return count;
+	}
+    
+    
 	public static void main(String[] args) {
-		int[] arr = {2,5,1,3,4,7};
-		System.out.println(Arrays.toString(shuffleAgain(arr, 3)));
+		List<Integer> arr = Arrays.asList(-1,1,2,3,1);
+		System.out.println(countPairsByMap(arr, 2));
 	}
 
 }
