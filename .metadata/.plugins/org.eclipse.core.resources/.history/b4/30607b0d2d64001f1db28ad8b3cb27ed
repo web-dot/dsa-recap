@@ -67,8 +67,6 @@ public class ArrayEasyProblems {
 		}
 		return count;
 	}
-	
-	
     
     
 	public static void main(String[] args) {
