@@ -1,4 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="com.creational.factory_method_pattern.EmailNotificatin"/>
+    <fullyQualifiedTypeName name="com.creational.factory_method_pattern.SMSNotification"/>
+    <fullyQualifiedTypeName name="com.creational.factory_method_pattern.EmailNotificationFactory"/>
+    <fullyQualifiedTypeName name="com.creational.factory_method_pattern.NotificationFactory"/>
+    <fullyQualifiedTypeName name="com.creational.factory_method_pattern.SMSNOtificationFactory"/>
+    <fullyQualifiedTypeName name="com.creational.animal_factory.AnimalFactory"/>
+    <fullyQualifiedTypeName name="com.reaplly.progrmming.GrandFather"/>
     <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="java.util.Map.Entry"/>
 </qualifiedTypeNameHistroy>

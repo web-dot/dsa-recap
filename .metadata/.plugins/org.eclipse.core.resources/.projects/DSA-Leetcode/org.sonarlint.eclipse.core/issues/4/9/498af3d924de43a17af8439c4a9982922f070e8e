@@ -1,12 +1,8 @@
 
-o	java:S106"9Replace this use of System.out or System.err by a logger.(¨“‹ıÿÿÿÿ8‰³Ÿú•2H RMAJORZ
+p	java:S106K"9Replace this use of System.out or System.err by a logger.(ãÙ®Ïıÿÿÿÿ8ù£ÆÇš2HîRMAJORZ
 CODE_SMELL
-o	java:S106"9Replace this use of System.out or System.err by a logger.(Å´§¡ıÿÿÿÿ8ˆ•”ú•2H!RMAJORZ
+p	java:S106"9Replace this use of System.out or System.err by a logger.(Å´§¡ıÿÿÿÿ8ñÿú•2HïRMAJORZ
 CODE_SMELL
-o	java:S106!"9Replace this use of System.out or System.err by a logger.(°ÈĞ¦şÿÿÿÿ8í¡ú•2H"RMAJORZ
-CODE_SMELL
-j	java:S106"9Replace this use of System.out or System.err by a logger.(‘¤‡8ñÿú•2H#RMAJORZ
-CODE_SMELL
-a
-java:S1197"*Move the array designators [] to the type.(¡şÏÖøÿÿÿÿ8ñÿú•2H$RMINORZ
+b
+java:S1197I"*Move the array designators [] to the type.(¡şÏÖøÿÿÿÿ8ñÿú•2HğRMINORZ
 CODE_SMELL
