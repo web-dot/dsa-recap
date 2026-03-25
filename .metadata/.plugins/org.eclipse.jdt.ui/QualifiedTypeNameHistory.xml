@@ -7,6 +7,11 @@
     <fullyQualifiedTypeName name="com.creational.factory_method_pattern.SMSNOtificationFactory"/>
     <fullyQualifiedTypeName name="com.creational.animal_factory.AnimalFactory"/>
     <fullyQualifiedTypeName name="com.reaplly.progrmming.GrandFather"/>
-    <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="java.util.Map.Entry"/>
+    <fullyQualifiedTypeName name="com.reaplly.progrmming.Derived"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="com.reaplly.progrmming.JavaTest"/>
+    <fullyQualifiedTypeName name="java.util.LinkedHashSet"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
 </qualifiedTypeNameHistroy>
